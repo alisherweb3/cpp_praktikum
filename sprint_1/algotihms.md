@@ -40,4 +40,21 @@ int main() {
   for (int i =0; i < size; ++i) {
     int value;
     cin >> value;
+    values.push_back(value);
+  }
+
+  int sum = accumulate(values.begin(), values.end(), 0);
+  cout << sum << endl;
+]
+```
+
+Ulangan algoritmlar
+
+```
+const set<string> menagerie = {"cat"s, "dog"s, "rat"s);
+cout << menagerie.count("cat"s) << endl;
+cout << count(menagerie.begin(), menagerie.end(), "cat"s) << endl;
+// javob
+// 1
+// 1
 ```
