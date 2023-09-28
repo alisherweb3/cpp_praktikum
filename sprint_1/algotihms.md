@@ -12,3 +12,32 @@ const vector<string> escapes = {
 };
 cout << count(escapees.begin(), escapees.end(), "parrots"s); // 2 pupes
 ```
+
+RESERVE algoritmi SORT funksiyasini, vektorda ishlatadi.
+```
+reverse(xs.begin(), xs.end());
+```
+
+ACCUMULATE algoritmi
+```
+int sum = accumulate(xs.begin(), xs.end(), 0);
+```
+
+accumulate algoritmini qanday ishlashini yana ko'rib chiqamiz
+
+```
+#include <iostream>
+#include <numeric>
+#include <vector>
+
+using namespace std;
+
+int main() {
+  int size;
+  cin >> size;
+
+  vector<int> values:
+  for (int i =0; i < size; ++i) {
+    int value;
+    cin >> value;
+```
